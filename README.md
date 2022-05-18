@@ -39,6 +39,24 @@ LeetCodeの解答をまとめたいと思います。
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Python3](leetcode/0347_Top_K_Frequent_Elements) | 整数配列 nums と整数kが与えられたとき、最も頻度の高い k 個の要素を返せ。答えはどのような順番で返してもよい。 |
 | 373 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Python3](leetcode/0373_Find_K_Pairs_with_Smallest_Sums) | 昇順でソートされた2つの整数配列 nums1, nums2 から一つずつ要素を取り出し、和が最も小さい k 組のペア (u1, v1) を返す。 |
 
+### HashMap
+
+`Map` とは `Key` と `Value` を紐付けてデータを格納するデータ構造のことで、`Key` の重複が許されておらず、`Key` から `Value` を参照するような時に使われる。特定の `Key` が登録されているか1つずつ調べるのは効率的でないので、ハッシュテーブルを使った実装になっており、ハッシュ関数により特定の `Key` に対して出来るだけ一意の値を返すため、全てを調べる必要がなく効率的である。
+
+汎用の `Python` 組み込みコンテナ `dict` の代わりに、[collections.defaultdict](https://docs.python.org/ja/3.10/library/collections.html) を使うこともできる。`defaultdict` では存在しない  `Key` が入ってもデフォルト値を生成することができるため、状況によってはコードを簡略化することができる。
+
+重複をなくすだけであれば、`Python` には、[set](https://docs.python.org/ja/3/tutorial/datastructures.html#sets) (集合) を扱うためのデータ型がある。集合とは、重複する要素をもたない、順序づけられていない要素の集まりである。
+
+| # | Title | Solution | Summary |
+|---|---|---|---|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python3](leetcode/0001_Two_Sum) | 整数 nums の配列と整数 target が与えられたとき、2つの数値の和が target になるようなインデックスを返せ。 |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python3](leetcode/0049_Group_Anagrams) | 文字列 strs の配列が与えられたとき、アナグラムをになっているものをグループ化して返す。 |
+| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Python3](leetcode/0349_Intersection_of_Two_Arrays) | 2つの整数配列 nums1, nums2 が与えられたとき、それらの共通している要素を返す。 |
+| 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Python3](leetcode/0929_Unique_Email_Addresses) | メールアドレスが複数入っている配列から、ユニークなメールアドレスの数をカウントして返す。ただし、メールアドレスにはドットやプラスに特別な意味があるため注意する。 |
+| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python3](leetcode/0387_First_Unique_Character_in_a_String) | 文字列 s が与えられたとき、その中のユニークな文字の中ではじめに出て来るものを探し、そのインデックスを返す。もしそれが存在しなければ、-1 を返す。 |
+| 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python3](leetcode/0560_Subarray_Sum_Equals_K) | 整数 nums の配列と整数 k が与えられたとき、その和が k に等しい部分配列の総数を返す。 |
+
+
 ## Plan
 
 自分自身の勉強のために解答をまとめているので、すべてを網羅するつもりはありません。
