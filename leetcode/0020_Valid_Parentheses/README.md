@@ -22,7 +22,7 @@ from collections import deque
 stack = deque([]) # 初期化
 stack.append(x)   # xをの右側につけ加える
 y = stack.pop()   # 右側から要素をひとつ削除してyに取り出す
-z = queue.pop()   # 左側から要素をひとつ削除してzに取り出す
+z = queue.popleft()   # 左側から要素をひとつ削除してzに取り出す
 ```
 
 ## 解法
