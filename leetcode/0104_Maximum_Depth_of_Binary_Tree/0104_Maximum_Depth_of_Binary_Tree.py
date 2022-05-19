@@ -15,13 +15,11 @@ class Solution:
         max_depth = 0
         while stack:
             root, count = stack.pop()
-            if root.left == None or root.right == None:
-                if count > max_depth:
-                    max_depth = count
+            if (root.left == None or root.right == None) and count > max_depth:
+                max_depth = count
             if root.left != None:
                 stack.append((root.left, count + 1))
             if root.right != None:
                 stack.append((root.right, count + 1))
                 
         return max_depth
-        
