@@ -56,6 +56,22 @@ LeetCodeの解答をまとめたいと思います。
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python3](leetcode/0387_First_Unique_Character_in_a_String) | 文字列 s が与えられたとき、その中のユニークな文字の中ではじめに出て来るものを探し、そのインデックスを返す。もしそれが存在しなければ、-1 を返す。 |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python3](leetcode/0560_Subarray_Sum_Equals_K) | 整数 nums の配列と整数 k が与えられたとき、その和が k に等しい部分配列の総数を返す。 |
 
+### Graph, BFS, DFS
+
+探索アルゴリズムでスタック（後に入れたものが先に出る）を使うかキュー（先に入れたものが先に出る）を使うかによって、深さ優先探索（スタック使用）か幅優先探索（キュー使用）になる。
+
+`BFS`（幅優先探索）は、`Graph` の探索に用いられるアルゴリズムで、最小移動手数を求めるような出来るだけ根から近い部分を積極的に探索した方が効率が良いときに用いる。
+
+`DFS`（深さ優先探索）は、`Graph` の探索に用いられるアルゴリズムで、スタートからゴールまで辿り着けるかを調べる問題のように、一度最後のノードまで探索した方が効率の良いときに用いる。
+
+`DFS`（深さ優先探索）は再起を使って比較的簡単に書けるため、全て列挙する場合は`DFS`（深さ優先探索）を用いることが多い。最短路や最小手数などを求める場合は `BFS`（幅優先探索）の方が有効である。
+
+| # | Title | Solution | Summary |
+|---|---|---|---|
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python3](leetcode/0200_Number_of_Islands) | 1（陸）と 0（水）の地図を表す m×n の2次元二項格子が与えられたとき、島の数を返す。 |
+| 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python3](leetcode/0695_Max_Area_of_Island) | 1（陸）と 0（水）の地図を表す m×n の2次元配列が与えられたとき、配列の中の島の最大面積を返す。島がない場合は 0 を返す。 |
+| 323 | [🔒 Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Python3](leetcode/0323_Number_of_Connected_Components_in_an_Undirected_Graph) | n 個のノードと無向のエッジのリストが与えられたとき、無向グラフの連結成分の数を求める関数を書け。 |
+| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python3](leetcode/0127_Word_Ladder) | beginWord と endWord の2つの単語と wordList が与えられたとき、beginWord から endWord への最短で変換するのに必要な単語の数を返す、変換できるのは1文字違いの単語のみで、beginWord のみ wordList に存在する必要はない。 |
 
 ## Plan
 
