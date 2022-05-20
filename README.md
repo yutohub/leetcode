@@ -52,7 +52,7 @@ LeetCodeの解答をまとめたいと思います。
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python3](leetcode/0001_Two_Sum) | 整数 nums の配列と整数 target が与えられたとき、2つの数値の和が target になるようなインデックスを返せ。 |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python3](leetcode/0049_Group_Anagrams) | 文字列 strs の配列が与えられたとき、アナグラムをになっているものをグループ化して返す。 |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Python3](leetcode/0349_Intersection_of_Two_Arrays) | 2つの整数配列 nums1, nums2 が与えられたとき、それらの共通している要素を返す。 |
-| 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Python3](leetcode/0929_Unique_Email_Addresses) | メールアドレスが複数入っている配列から、ユニークなメールアドレスの数をカウントして返す。ただし、メールアドレスにはドットやプラスに特別な意味があるため注意する。 |
+| 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Python3](leetcode/0929_Unique_Email_Addresses) | メールアドレスが複数入っている配列から、ユニークなメールアドレスの数をカウントして返す。 |
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python3](leetcode/0387_First_Unique_Character_in_a_String) | 文字列 s が与えられたとき、その中のユニークな文字の中ではじめに出て来るものを探し、そのインデックスを返す。もしそれが存在しなければ、-1 を返す。 |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python3](leetcode/0560_Subarray_Sum_Equals_K) | 整数 nums の配列と整数 k が与えられたとき、その和が k に等しい部分配列の総数を返す。 |
 
@@ -71,7 +71,25 @@ LeetCodeの解答をまとめたいと思います。
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python3](leetcode/0200_Number_of_Islands) | 1（陸）と 0（水）の地図を表す m×n の2次元二項格子が与えられたとき、島の数を返す。 |
 | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python3](leetcode/0695_Max_Area_of_Island) | 1（陸）と 0（水）の地図を表す m×n の2次元配列が与えられたとき、配列の中の島の最大面積を返す。島がない場合は 0 を返す。 |
 | 323 | [🔒 Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Python3](leetcode/0323_Number_of_Connected_Components_in_an_Undirected_Graph) | n 個のノードと無向のエッジのリストが与えられたとき、無向グラフの連結成分の数を求める関数を書け。 |
-| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python3](leetcode/0127_Word_Ladder) | beginWord と endWord の2つの単語と wordList が与えられたとき、beginWord から endWord への最短で変換するのに必要な単語の数を返す、変換できるのは1文字違いの単語のみで、beginWord のみ wordList に存在する必要はない。 |
+| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python3](leetcode/0127_Word_Ladder) | beginWord から endWord への最短で変換するのに必要な単語の数を返す。変換できるのは1文字違いの単語のみで、beginWord のみ wordList に存在する必要はない。 |
+
+### Tree, BT, BST
+
+`Binary Tree`（二分木）とは、データ構造の1つである。あるノードが持つ子の数が多くて2つであるものをいう。例えば、`Binary Search Tree`（二分探索）や `Heap`（ヒープ）を実装するために使われる。
+
+`Binary Search Tree`（二分探索木）は、コンピュータプログラムにおいて、「左の値 ≤ 親の値 ≤ 右の値」という条件を持つ二分木である。
+
+| # | Title | Solution | Summary |
+|---|---|---|---|
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python3](leetcode/0104_Maximum_Depth_of_Binary_Tree) | 二分木が与えられたとき、その最大深度を返す。 |
+| 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Python3](leetcode/0111_Minimum_Depth_of_Binary_Tree) | 二分木が与えられたとき、その最小の深さを求めよ。 |
+| 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Python3](leetcode/0617_Merge_Two_Binary_Trees) | 2本の二分木 root1 と root2 が与えられる。2本の二分木を重ね合わせた二分木を返す。 |
+| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python3](leetcode/0108_Convert_Sorted_Array_to_Binary_Search_Tree) | 昇順にソートされた整数配列 nums が与えられたとき、それを高さバランスのとれた二分探索木に変換せよ。 |
+| 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [Python3](leetcode/0112_Path_Sum) | 二分木のルートと整数の targetSum が与えられたとき、その木にルートから子を持たないノードへのパスがあり、そのパスに沿ったすべての値の合計が targetSum に等しい場合に真を返す。 |
+| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python3](leetcode/0102_Binary_Tree_Level_Order_Traversal) | 二分木のルートが与えられたとき、そのノードの深さごとに配列に分けて返す。 |
+| 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Python3](leetcode/0103_Binary_Tree_Zigzag_Level_Order_Traversal) | 二分木のルートが与えられたとき、そのノードの値をジグザグ（右から左，左から右を交互に）にノードの深さ毎にまとめたものを返す。 |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python3](leetcode/0098_Validate_Binary_Search_Tree) | 二分木のルートが与えられたとき、それが有効な二分木探索木（BST）であるかどうかを判定しなさい。 |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Python3](leetcode/0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal) | 2つの整数配列 preorder と inorder が与えられ、preorder は前置走査、inorder は後置走査を表しており、これらをもとにして二分木を構築して返す。 |
 
 ## Plan
 
