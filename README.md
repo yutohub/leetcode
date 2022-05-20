@@ -115,6 +115,72 @@ LeetCodeの解答をまとめたいと思います。
 > [Toptal | Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)  
 > [けんちょん | ソートを極める！ 〜 なぜソートを学ぶのか 〜](https://qiita.com/drken/items/44c60118ab3703f7727f)
 
+### Dynamic Programming
+
+`DP`（動的計画法）は、コンピュータで用いられるアルゴリズムの分類の1つである。イメージとしては、問題を小さな部分問題に分割し、それぞれの部分問題の計算結果を記録、同じ計算に対しては記録を参照することで省略するという流れになっている。
+
+有名な例として「フィボナッチ数列」が取り上げられる。動的計画法を使わないず再帰で解いた場合は、$f(4) = f(3) + f(2)$ という計算をするために $f(3) = f(2) + f(1)$ が必要になるため、$f(2)$ の計算が重複してしまう。全く同じ計算を何度も何度も繰り返しているため効率が悪い。
+
+そこで、`メモ化再帰` という方法が取られる。計算したことがなければ計算をして結果をメモし、計算したことがあれば計算結果を利用するという方法である。メモ化再帰をするためには、グローバル変数でメモを用意しておく必要がある。
+
+| # | Title | Solution | Summary |
+|---|---|---|---|
+| 276 | [🔒 Paint Fence](https://leetcode.com/problems/paint-fence/) | [TODO](leetcode/0276_Paint_Fence) | --- |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [TODO](leetcode/0300_Longest_Increasing_Subsequence) | --- |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [TODO](leetcode/0053_Maximum_Subarray) | --- |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [TODO](leetcode/0062_Unique_Paths) | --- |
+| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [TODO](leetcode/0063_Unique_Paths_II) | --- |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [TODO](leetcode/0198_House_Robber) | --- |
+| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [TODO](leetcode/0213_House_Robber_II) | --- |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [TODO](leetcode/0121_Best_Time_to_Buy_and_Sell_Stock) | --- |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [TODO](leetcode/0122_Best_Time_to_Buy_and_Sell_Stock_II) | --- |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [TODO](leetcode/0139_Word_Break) | --- |
+| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [TODO](leetcode/0322_Coin_Change) | --- |
+
+### Binary Search
+
+| # | Title | Solution | Summary |
+|---|---|---|---|
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [TODO](leetcode/0035_Search_Insert_Position) | --- |
+| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [TODO](leetcode/0153_Find_Minimum_in_Rotated_Sorted_Array) | --- |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [TODO](leetcode/0033_Search_in_Rotated_Sorted_Array) | --- |
+| 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [TODO](leetcode/1011_Capacity_To_Ship_Packages_Within_D_Days) | --- |
+
+### Recursion
+
+| # | Title | Solution | Summary |
+|---|---|---|---|
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [TODO](leetcode/0050_Powx_n) | --- |
+| 779 | [K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [TODO](leetcode/0779_K-th_Symbol_in_Grammar) | --- |
+| 776 | [🔒 Split BST](https://leetcode.com/problems/split-bst/) | [TODO](leetcode/0776_Split_BST) | --- |
+
+### Sliding Window
+
+| # | Title | Solution | Summary |
+|---|---|---|---|
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [TODO](leetcode/0003_Longest_Substring_Without_Repeating_Characters) | --- |
+| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [TODO](leetcode/0209_Minimum_Size_Subarray_Sum) | --- |
+
+### Greedy + Backtracking
+
+| # | Title | Solution | Summary |
+|---|---|---|---|
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | [TODO](leetcode/0046_Permutations) | --- |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | [TODO](leetcode/0078_Subsets) | --- |
+| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [TODO](leetcode/0039_Combination_Sum) | --- |
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [TODO](leetcode/0022_Generate_arentheses) | --- |
+
+### Practice
+
+| # | Title | Solution | Summary |
+|---|---|---|---|
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [TODO](leetcode/0283_Move_Zeroes) | --- |
+| 252 | [🔒 Meeting Rooms ](https://leetcode.com/problems/meeting-rooms/) | [TODO](leetcode/0252_Meeting_Rooms) | --- |
+| 253 | [🔒 Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [TODO](leetcode/0253_Meeting_Rooms_II) | --- |
+| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [TODO](leetcode/0392_Is_Subsequence) | --- |
+| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [TODO](leetcode/0031_Next_Permutation) | --- |
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [TODO](leetcode/0008_String_to_Integer_atoi) | --- |
+| 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [TODO](leetcode/0006_Zigzag_Conversion) | --- |
 
 ## Plan
 自分自身の勉強のために解答をまとめているので、すべてを網羅するつもりはありません。  
