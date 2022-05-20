@@ -125,62 +125,62 @@ LeetCodeの解答をまとめたいと思います。
 
 | # | Title | Solution | Summary |
 |---|---|---|---|
-| 276 | [🔒 Paint Fence](https://leetcode.com/problems/paint-fence/) | [TODO](leetcode/0276_Paint_Fence) | --- |
-| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [TODO](leetcode/0300_Longest_Increasing_Subsequence) | --- |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [TODO](leetcode/0053_Maximum_Subarray) | --- |
-| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [TODO](leetcode/0062_Unique_Paths) | --- |
-| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [TODO](leetcode/0063_Unique_Paths_II) | --- |
-| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [TODO](leetcode/0198_House_Robber) | --- |
-| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [TODO](leetcode/0213_House_Robber_II) | --- |
-| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [TODO](leetcode/0121_Best_Time_to_Buy_and_Sell_Stock) | --- |
-| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [TODO](leetcode/0122_Best_Time_to_Buy_and_Sell_Stock_II) | --- |
-| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [TODO](leetcode/0139_Word_Break) | --- |
-| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [TODO](leetcode/0322_Coin_Change) | --- |
+| 276 | [🔒 Paint Fence](https://leetcode.com/problems/paint-fence/) | [TODO](leetcode/0276_Paint_Fence) | 支柱の本数 n と使える色の数 k が与えられ、同じ色が3つ連続にならないような柱の塗り方は何通りあるか計算する。 |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [TODO](leetcode/0300_Longest_Increasing_Subsequence) | 整数の配列 nums があり、順序を変えずに一部を削除して、要素が増加する部分列を作成する。そのうち最長の長さを返します。 |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [TODO](leetcode/0053_Maximum_Subarray) | 整数配列 nums が与えられたとき、和が最大になるような、配列の連続した部分を見つけ、その和を返す。|
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [TODO](leetcode/0062_Unique_Paths) | m×n のグリッド上にロボットがいて、ロボットが右下隅に到達するために取り得る一意な経路の数を返す。 |
+| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [TODO](leetcode/0063_Unique_Paths_II) | m×n のグリッド上にロボットがいて、グリッド内では、障害物と空間はそれぞれ1または0と表示される。ロボットが右下隅に到達するために取り得る一意な経路の数を返す。 |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [TODO](leetcode/0198_House_Robber) | 報酬を表す整数配列 nums が与えられたとき、報酬が最大になるような要素の選び方を考え、その報酬額を返す。ただし、隣接する要素を同時に選べない。 |
+| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [TODO](leetcode/0213_House_Robber_II) | 報酬を表す整数配列 nums が与えられたとき、報酬が最大になるような要素の選び方を考え、その報酬額を返す。ただし、隣接する要素を同時に選べない。また、初めの要素と終わりの要素は隣接しているとする。 |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [TODO](leetcode/0121_Best_Time_to_Buy_and_Sell_Stock) | prices[i] が i日目 の株価である配列 price が与えられる。買う日を1日を選び、その銘柄を売る将来の1日を選ぶことによって、利益を最大化せよ。 |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [TODO](leetcode/0122_Best_Time_to_Buy_and_Sell_Stock_II) | 整数配列 prices が与えられ、price[i] は指定された銘柄の i 日目の価格である。各日にその株を買うか売るかを決め、得られる利益の最大値を求めよ。ただし、最大で 1 株しか保有できない。 |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [TODO](leetcode/0139_Word_Break) | 文字列 s と文字列の辞書 wordDict が与えられたとき、s をスペースで区切って wordDict の単語だけで構成できるか判定する。同じ単語を複数回使うこともできる。 |
+| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [TODO](leetcode/0322_Coin_Change) | 異なる貨幣を表す整数配列 coins と、支払額を表す整数 amount が与えられている。その支払額を払うのに必要最低限の枚数のコインを返せ。 |
 
 ### Binary Search
 
 | # | Title | Solution | Summary |
 |---|---|---|---|
-| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [TODO](leetcode/0035_Search_Insert_Position) | --- |
-| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [TODO](leetcode/0153_Find_Minimum_in_Rotated_Sorted_Array) | --- |
-| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [TODO](leetcode/0033_Search_in_Rotated_Sorted_Array) | --- |
-| 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [TODO](leetcode/1011_Capacity_To_Ship_Packages_Within_D_Days) | --- |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [TODO](leetcode/0035_Search_Insert_Position) | 整数のソートされた配列と目標値が与えられたとき、目標が見つかればそのインデックスを返す。見つからなければ、順番に挿入された場合のインデックスを返す。 |
+| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [TODO](leetcode/0153_Find_Minimum_in_Rotated_Sorted_Array) | ユニークな要素を持つ回転配列 nums をソートしたとき、この配列の最小の要素を返せ。 |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [TODO](leetcode/0033_Search_in_Rotated_Sorted_Array) | 回転後の配列 nums と整数の target が与えられたとき、target が nums の中にあればそのインデックスを、nums の中になければ-1を返せ。 |
+| 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [TODO](leetcode/1011_Capacity_To_Ship_Packages_Within_D_Days) | ベルトコンベア上の i番目の荷物は weights[i] の重さを持つ、days で与えられた日数以内に全て運ぶとすると必要になる、船の最小の重量容量を返せ。 |
 
 ### Recursion
 
 | # | Title | Solution | Summary |
 |---|---|---|---|
-| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [TODO](leetcode/0050_Powx_n) | --- |
-| 779 | [K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [TODO](leetcode/0779_K-th_Symbol_in_Grammar) | --- |
-| 776 | [🔒 Split BST](https://leetcode.com/problems/split-bst/) | [TODO](leetcode/0776_Split_BST) | --- |
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [TODO](leetcode/0050_Powx_n) | x を n 乗したもの（つまり $x^n$ ）を計算する pow(x, n) を実装する。 |
+| 779 | [K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [TODO](leetcode/0779_K-th_Symbol_in_Grammar) | 行数を表す n と列数を表す k が与えられたとき、そのインデックスにある値を返す。表は1行目に0、2行目には1行目の0とそれを入れ替えた1を追加した01が入る。 |
+| 776 | [🔒 Split BST](https://leetcode.com/problems/split-bst/) | [TODO](leetcode/0776_Split_BST) | 二分探索木 BST と目標値 V が与えられたとき、木を2つの部分木に分割し、一方の部分木は目標値以下のノードで構成し、もう一方の部分木には目標値より大きいノード構成するようにする。 |
 
 ### Sliding Window
 
 | # | Title | Solution | Summary |
 |---|---|---|---|
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [TODO](leetcode/0003_Longest_Substring_Without_Repeating_Characters) | --- |
-| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [TODO](leetcode/0209_Minimum_Size_Subarray_Sum) | --- |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [TODO](leetcode/0003_Longest_Substring_Without_Repeating_Characters) | 文字列 s が与えられたとき、文字の繰り返しのない最長の部分文字列の長さを求めよ。 |
+| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [TODO](leetcode/0209_Minimum_Size_Subarray_Sum) | 正の整数の配列 nums と正の整数の配列 target が与えられたとき、連続する部分配列のうち、その和が target 以上となる最小の長さのものを返す。 |
 
 ### Greedy + Backtracking
 
 | # | Title | Solution | Summary |
 |---|---|---|---|
-| 46 | [Permutations](https://leetcode.com/problems/permutations/) | [TODO](leetcode/0046_Permutations) | --- |
-| 78 | [Subsets](https://leetcode.com/problems/subsets/) | [TODO](leetcode/0078_Subsets) | --- |
-| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [TODO](leetcode/0039_Combination_Sum) | --- |
-| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [TODO](leetcode/0022_Generate_arentheses) | --- |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | [TODO](leetcode/0046_Permutations) | 異なる整数の配列 nums が与えられたとき、可能なすべての並べ換えを返せ。どのような順序で返してもよい。 |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | [TODO](leetcode/0078_Subsets) | 一意な要素からなる整数配列 nums が与えられたとき、可能なすべての部分集合を返す。 |
+| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [TODO](leetcode/0039_Combination_Sum) | 配列 candidates と整数 target が与えられたとき、選ばれた数値の合計が目標となる組み合わせのリストを返す。 |
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [TODO](leetcode/0022_Generate_arentheses) | 整数 n が与えられたとき、n 個の括弧を使ってできる有効な組み合わせを全て生成する関数を書け。 |
 
 ### Practice
 
 | # | Title | Solution | Summary |
 |---|---|---|---|
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [TODO](leetcode/0283_Move_Zeroes) | --- |
-| 252 | [🔒 Meeting Rooms ](https://leetcode.com/problems/meeting-rooms/) | [TODO](leetcode/0252_Meeting_Rooms) | --- |
-| 253 | [🔒 Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [TODO](leetcode/0253_Meeting_Rooms_II) | --- |
-| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [TODO](leetcode/0392_Is_Subsequence) | --- |
-| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [TODO](leetcode/0031_Next_Permutation) | --- |
-| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [TODO](leetcode/0008_String_to_Integer_atoi) | --- |
-| 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [TODO](leetcode/0006_Zigzag_Conversion) | --- |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [TODO](leetcode/0283_Move_Zeroes) | 整数配列 nums が与えられたとき、0 以外の要素の並び順を維持したまま、すべての 0 を配列の末尾に移動させる。この処理はインプレース操作で行わなければならない。 |
+| 252 | [🔒 Meeting Rooms ](https://leetcode.com/problems/meeting-rooms/) | [TODO](leetcode/0252_Meeting_Rooms) | 開始時刻と終了時刻からなる会議時間間隔の配列が与えられたとき、その人がすべての会議に出席できるかどうかを判定しなさい。 |
+| 253 | [🔒 Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [TODO](leetcode/0253_Meeting_Rooms_II) | 開始時刻と終了時刻からなる会議時間間隔の配列があるとき，必要な会議室の最小数を求めよ。 |
+| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [TODO](leetcode/0392_Is_Subsequence) | 2つの文字列sとtが与えられたとき、sがtの部分列であればtrueを、そうでなければfalseを返す。 |
+| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [TODO](leetcode/0031_Next_Permutation) | 整数の配列が与えられたとき、可能な組み合わせを考え辞書のように並べたとき、整数の配列の次の並べ換えを返す。 |
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [TODO](leetcode/0008_String_to_Integer_atoi) | 文字列を32ビット符号付き整数に変換する関数を実装する問題、一見簡単だが、どこまで入力範囲を考え抜けるかが試される問題。 |
+| 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [TODO](leetcode/0006_Zigzag_Conversion) | 文字列 s を列数 numRows でジグザグに表示したときの一行目に表示される文字からリストに入れて返す。 |
 
 ## Plan
 自分自身の勉強のために解答をまとめているので、すべてを網羅するつもりはありません。  
