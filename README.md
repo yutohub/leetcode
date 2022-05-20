@@ -117,19 +117,14 @@ LeetCodeの解答をまとめたいと思います。
 
 
 ## Plan
-
-自分自身の勉強のために解答をまとめているので、すべてを網羅するつもりはありません。
-
+自分自身の勉強のために解答をまとめているので、すべてを網羅するつもりはありません。  
 リクエストやアドバイス、ご質問等ございましたら、お気軽にお問い合わせください。
 
 ## Reference
-
+こちらの記事を参考にして問題を選択しています。  
 [新井康平 | コーディング面接対策のために解きたいLeetCode 60問](https://1kohei1.com/leetcode/)
 
 ## Recommendation
-
-[LeetCode in Go](https://github.com/halfrost/LeetCode-Go)
-
+他の解き方を見たい方には以下のレポジトリを見ることをおすすめします。  
+[LeetCode in Go](https://github.com/halfrost/LeetCode-Go)  
 [Python & JAVA Solutions for Leetcode (inspired by haoel's leetcode)](https://github.com/qiyuangong/leetcode)
-
-
